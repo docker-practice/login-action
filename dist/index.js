@@ -504,10 +504,10 @@ const stateHelper = __importStar(__webpack_require__(647));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            if (os.platform() !== 'linux') {
-                core.setFailed('Only supported on linux platform');
-                return;
-            }
+//             if (os.platform() !== 'linux') {
+//                 core.setFailed('Only supported on linux platform');
+//                 return;
+//             }
             let inputs = yield context_1.getInputs();
             stateHelper.setRegistry(inputs.registry);
             stateHelper.setLogout(inputs.logout);
